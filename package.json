@@ -1,24 +1,19 @@
 {
-  "name": "zookeepr",
+  "name": "main",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eucalyptus1/zookeepr.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/eucalyptus1/zookeepr/issues"
-  },
-  "homepage": "https://github.com/eucalyptus1/zookeepr#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
   }
 }
